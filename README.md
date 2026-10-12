@@ -94,7 +94,31 @@ Technologies
 
 Experimental Results
 
-Results will be presented here, including top-1 accuracy, top-5 accuracy and class-level evaluation metrics.
+
+The landmark-only baseline was evaluated on a 500-class British Sign Language recognition task using the BBC-Oxford BSL-1K dataset.
+
+Performance
+
+Metric	Result
+Number of sign classes	500
+Top-1 accuracy (per-instance)	78.40%
+Top-5 accuracy (per-instance)	91.62%
+Top-1 accuracy (per-class)	73.09%
+Top-5 accuracy (per-class)	89.63%
+Macro precision	75.33%
+Macro recall	73.09%
+Macro F1-score	72.70%
+Evaluation loss	1.6183
+
+Interpretation
+
+The model achieves 78.40% top-1 accuracy, correctly predicting the target sign as its highest-ranked class for approximately 78 out of every 100 evaluated instances. Top-5 accuracy increases to 91.62%, indicating that the correct class appears among the model’s five highest-ranked predictions for approximately 92 out of every 100 instances.
+
+The difference between instance-level and class-level performance also highlights the importance of evaluating recognition across individual sign classes, rather than relying solely on aggregate accuracy.
+
+These results provide a baseline for further investigation into landmark-based sign recognition and spatio-temporal graph neural networks.
+
+Results correspond to the evaluated 500-class landmark-only baseline. Evaluation settings and experimental details will be documented alongside the code.
 
 Experimental settings, evaluation procedures and comparisons will be documented to provide context for the reported results.
 
