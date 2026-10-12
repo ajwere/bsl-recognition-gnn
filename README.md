@@ -14,12 +14,12 @@ Originally developed as part of my BSc Computer Science research at Loughborough
 
 Real-Time Demonstration
 
-The video below demonstrates the BSL recognition system operating in real time, showing the model processing visual input and predicting sign classes.
+The video demonstrates the model performing real-time British Sign Language (BSL) recognition. During the demonstration, the model correctly predicts several signs, including Beautiful (confidence: 0.95), Flower (0.39), Change (0.88), and Job (0.46).
+
+The confidence scores illustrate how the model’s certainty varies between predictions, highlighting both strong predictions and cases where recognition is less certain.
 
 
-
-https://github.com/user-attachments/assets/68f281ef-97ea-4903-99f0-f300dec17083
-
+https://github.com/user-attachments/assets/9832de76-3333-4247-aef5-74af56700a85
 
 
 
