@@ -73,15 +73,16 @@ bsl-recognition-gnn/
 
 Core Files
 
-File	Purpose
-train.py	Main model training script
-train_utils.py	Training-related utilities
-dataset_loader.py	Loads landmark data for training and evaluation
-dataset_utils.py	Dataset preparation and supporting operations
-utils.py	General utility functions
-preprocessing/split.py	Creates training, validation and test splits
-preprocessing/extract_clips.py	Extracts word-level video clips
-preprocessing/extract_landmarks.py	Extracts landmark features from video
+File	Description
+train.py	Main training script for the 500-class landmark-only baseline.
+gnn_model.py	Defines the graph neural network architecture.
+train_utils.py	Provides training-related utility functions.
+dataset_loader.py	Loads landmark data for training and evaluation.
+dataset_utils.py	Provides dataset preparation utilities.
+utils.py	Contains general-purpose helper functions.
+preprocessing/split.py	Creates training, validation and test splits.
+preprocessing/extract_clips.py	Extracts word-level video clips.
+preprocessing/extract_landmarks.py	Extracts landmark features from video.
 
 The descriptions above reflect the filenames and your initial explanation. We’ll verify each file’s exact responsibilities against the code before finalising the documentation.
 
