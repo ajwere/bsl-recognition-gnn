@@ -52,8 +52,9 @@ The trained model is evaluated using classification metrics, including top-1 acc
 
 Further analysis can include per-class results, confusion matrices and examples of commonly confused signs.
 
-Repository Structure
+## Repository Structure
 
+```text
 bsl-recognition-gnn/
 ├── README.md
 ├── requirements.txt
@@ -70,6 +71,7 @@ bsl-recognition-gnn/
 │   └── extract_landmarks.py
 └── results/
     └── figures/
+```
 
 Core Files
 
