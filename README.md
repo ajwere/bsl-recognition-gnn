@@ -55,23 +55,19 @@ Further analysis can include per-class results, confusion matrices and examples 
 Repository Structure
 
 bsl-recognition-gnn/
-│
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-│
 ├── train.py
 ├── train_utils.py
 ├── gnn_model.py
 ├── dataset_loader.py
 ├── dataset_utils.py
 ├── utils.py
-│
 ├── preprocessing/
 │   ├── split.py
 │   ├── extract_clips.py
 │   └── extract_landmarks.py
-│
 └── results/
     └── figures/
 
