@@ -12,6 +12,19 @@ The project focuses on landmark-based recognition, investigating graph-based lea
 
 Originally developed as part of my BSc Computer Science research at Loughborough University, this work forms part of my broader research into deep learning and computer vision for sign language recognition.
 
+Real-Time Demonstration
+
+The video below demonstrates the BSL recognition system operating in real time, showing the model processing visual input and predicting sign classes.
+
+
+
+https://github.com/user-attachments/assets/68f281ef-97ea-4903-99f0-f300dec17083
+
+
+
+
+
+
 Research Objectives
 
 * Develop a landmark-based BSL recognition system using deep learning.
