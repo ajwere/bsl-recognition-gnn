@@ -76,7 +76,9 @@ bsl-recognition-gnn/
 │   └── extract_landmarks.py
 │
 └── results/
+    └── results.txt
     └── figures/
+
 ```
 
 Core Files
