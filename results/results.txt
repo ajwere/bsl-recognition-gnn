@@ -1,0 +1,64 @@
+British Sign Language Recognition Using Spatio-Temporal Graph Neural Networks
+
+Model: Landmark-only GNN baseline
+Dataset: BBC-Oxford BSL-1K
+Vocabulary size: 500 sign classes
+
+EVALUATION RESULTS
+
+Top-1 Accuracy (per-instance): 78.40%
+Top-5 Accuracy (per-instance): 91.62%
+
+Top-1 Accuracy (per-class):    73.09%
+Top-5 Accuracy (per-class):    89.63%
+
+Macro Precision:               75.33%
+Macro Recall:                  73.09%
+Macro F1-Score:                72.70%
+
+Loss:                          1.6183
+
+METRIC DEFINITIONS
+
+Top-1 per-instance:
+The proportion of individual test instances for which the
+highest-scoring predicted class matches the ground-truth label.
+
+Top-5 per-instance:
+The proportion of individual test instances for which the
+ground-truth label appears among the five highest-scoring
+predictions.
+
+Top-1 per-class:
+The average class-level top-1 accuracy, giving each class
+equal weight.
+
+Top-5 per-class:
+The average class-level top-5 accuracy, giving each class
+equal weight.
+
+Macro Precision:
+Precision calculated separately for each class and then
+averaged equally across classes.
+
+Macro Recall:
+Recall calculated separately for each class and then
+averaged equally across classes.
+
+Macro F1-Score:
+The unweighted average of the F1-score calculated for each
+class.
+
+NOTES
+
+* This is the landmark-only baseline; it does not represent
+    the unfinished multimodal or self-supervised learning
+    ablation studies.
+* The model was evaluated on a 500-class BSL recognition task.
+* The BBC-Oxford BSL-1K dataset is not included in this
+    repository.
+* Dataset access and use are subject to the dataset
+    provider’s terms and conditions.
+* The evaluation split and metric calculation procedures
+    should be documented alongside the experimental setup
+    for full reproducibility.
